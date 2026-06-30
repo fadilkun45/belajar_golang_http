@@ -1,0 +1,3 @@
+//GET Categories
+GET http://localhost:300/api/categories
+Accept: application/json

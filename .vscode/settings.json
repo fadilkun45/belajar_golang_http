@@ -1,0 +1,20 @@
+{
+  "go.useLanguageServer": true,
+  "gopls": {
+    "ui.codelenses": {
+      "generate": true,
+      "regenerate_cgo": true,
+      "test": true,
+      "tidy": true,
+      "upgrade_dependency": true,
+      "vendor": true
+    },
+    "ui.semanticTokens": true,
+    "ui.completion.usePlaceholders": true,
+    "formatting.gofumpt": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "go.toolsManagement.autoUpdate": true
+}
